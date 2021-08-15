@@ -8,7 +8,7 @@ class GreekTokensToWordFrequencies:
         # Manually identified acronyms and other non-linguistic contructs (lowercased).
         self.token_blacklist = set(['βλ', 'κ', 'κα', 'εε', 'εοκ', 'αριθ', 'δνο'])
         self.english_chars = set('aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ')
-        self.punctuation_chars = set('!"#$%&\'()*+,-./:;<=>?@[\]^_`{¦}~«»ʼ')
+        self.punctuation_chars = set('!"#$%&\'()*+,-./:;<=>?@[\]^_`{¦}~«»ʼ·–')
         self.emphasis_mapping = {'ΐ': 'ϊ', 'ΰ': 'ϋ', 'ά': 'α', 'έ': 'ε', 'ή': 'η',
                                 'ί': 'ι', 'ό': 'ο', 'ύ': 'υ', 'ώ': 'ω'}
 
